@@ -1,0 +1,52 @@
+ TRACE TABLE
+
+1. INSERTION TRACE
+
+| Step      | ID         | Position/Action 
+|-----------|------------|-----------------
+| 1         | A102       | Root            
+| 2         | A25        | Right of A102   
+| 3         | A7         | Right of A25    
+| 4         | B100       | Right of A7     
+| 5         | B12        | Right of B100   
+| 6         | A120       | Left of A25     
+| 7         | B3         | Right of B12    
+| 8         | A45        | Left of A7      
+
+2. INORDER TRAVERSAL
+
+A102  A120  A25  A45  A7  B100  B12  B3
+
+3. SEARCH TRACE
+
+Search ID: B12
+
+BST Search:
+A102 → A25 → A7 → B100 → B12
+BST Comparisons = 5
+
+Linear Search:
+A102 → A25 → A7 → B100 → B12
+Linear Comparisons = 5
+
+
+Search ID: A25
+
+BST Search:
+A102 → A25
+BST Comparisons = 2
+
+Linear Search:
+A102 → A25
+Linear Comparisons = 2
+
+
+Search ID: 120
+
+BST Search:
+A102 → A25 → A120
+BST Comparisons = 3
+
+Linear Search:
+A102 → A25 → A7 → B100 → B12 → A120
+Linear Comparisons = 6
