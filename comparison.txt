@@ -1,0 +1,30 @@
+1. BST Search vs Linear Search – Comparison Table
+
+
+Search Key       BST Comparisons 	     Linear Comparisons
+-----------------------------------------------------------------------
+B12    	          	5	                5
+A25                	2	              	2
+A120	            	3	                6
+
+
+2. Complexity Comparison Table
+
+
+Feature         	BST Search        	Linear Search
+---------------------------------------------------------------
+Best Case	      O(1)                    O(1)
+Average Case	      O(log n)	              O(n)
+Worst Case	      O(n)	              O(n)
+Space Complexity      O(n)	              O(1)
+
+
+
+Observation
+For A25, both searches required 2 comparisons.
+For B12, both required 5 comparisons.
+For A120, BST required only 3 comparisons, whereas Linear Search required 6.
+Therefore, BST can reduce the number of comparisons when the tree structure is favourable.
+> BST Search is generally more efficient than Linear Search for a well-balanced tree because its average search complexity is O(log n), while Linear Search
+ takes O(n). However, if the BST becomes highly unbalanced, its worst-case complexity becomes O(n), making it similar to Linear Search. 
+The experimental results also show that BST required fewer comparisons for A120 (3 vs 6), demonstrating its potential search efficiency.
