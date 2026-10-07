@@ -1,0 +1,30 @@
+Input IDs:
+A102 A25 A7 B100 B12 A120 B3 A45
+
+Inorder Traversal:
+A102 A120 A25 A45 A7 B100 B12 B3 
+
+Enter identification number to search: B12
+
+BST Search: Found
+Linear Search: Found
+BST comparison: 5
+Linear comparison: 5
+
+
+
+Enter identification number to search: A25
+
+BST Search: Found
+Linear Search: Found
+BST comparison: 2
+Linear comparison: 2
+
+
+
+Enter identification number to search: A120
+
+BST Search: Found
+Linear Search: Found
+BST comparison: 3
+Linear comparison: 6
